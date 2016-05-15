@@ -1,0 +1,99 @@
+/**
+ * Importante
+ * . -> classe
+ * # -> id
+ */
+
+/**
+ * Reset
+ */
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	text-align: center;
+}
+/**
+ * Header
+ */
+header {
+	widht: 100%;
+	height: 40px;
+	background: #000;
+}
+
+/*Nav*/
+nav {
+	width: 1024px;
+	margin: 0 auto;	
+	display: table;
+}
+nav ul {
+	float: left;
+	list-style: none;
+}
+nav ul li {
+	float: left;
+}
+nav li a {
+	color: #fff;
+	text-decoration: none;
+	float: left;
+	padding: 10.5px 10px;
+}
+nav a:hover {
+	background: #098;
+	color: #fff;
+}
+nav a:active {
+	background: rgb(255, 0, 0);
+	color: #f00;
+}
+
+/**
+ * Main Content
+ */
+.main {
+	width: 100%;
+	background: #069;
+	display: table;
+}
+.main .content {
+	width: 1024px;
+	margin: 0 auto;
+	background: #fff;
+	display: table;
+}
+.main .content .col-left,
+.main .content .col-right {
+	height: 720px;
+}
+.main .content h1{
+	text-align: left;
+}
+.main .content .col-left {
+	width: 730px;
+	background: #f45;
+	float: left;
+	padding: 20px 10px 0px;
+}
+.main .content .col-right {
+	width: 250px;
+	background: #036;
+	float: right;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
